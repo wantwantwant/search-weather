@@ -19,7 +19,7 @@ def search():
         return f"{city_weather}"
     elif type(city_weather) == dict:
         return render_template("index.html", c=city_weather["city_info"], td=city_weather["today"],
-                               five_day=[city_weather["yesterday"], city_weather["today"],city_weather["tomorrow"],
+                               five_day= [city_weather["yesterday"], city_weather["today"],city_weather["tomorrow"],
                                          city_weather["ht"],city_weather["dht"], city_weather["ddht"]])
 
 

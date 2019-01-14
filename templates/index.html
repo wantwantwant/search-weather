@@ -14,7 +14,7 @@
 {% block main%}
   <main class="text-center">
     <h5>{{ td["month"] }}月{{ td["day"] }}日 [{{ td["week"] }}]</h5>
-    {% set deafult_img = "image/duoyun.png" %}
+    {% set deafult_img = "img/duoyun.png" %}
     {% if td["type"] == "晴" %}
       <img src="static/image/qt.png" alt="天气图标">
     {% elif td["type"] == "阴" %}
@@ -44,7 +44,7 @@
           <p>{{ d["week"] }}</p>
           <p>{{ d["month"] }}月{{ d["day"] }}日</p>
 {#          <img src="days/xiaoyu.png" alt="">#}
-          {% set deafult_img = "image/duoyun.png" %}
+          {% set deafult_img = "img/duoyun.png" %}
           {% if d["type"] == "晴" %}
             <img src="static/image/qt.png" alt="天气图标">
           {% elif d["type"] == "阴" %}

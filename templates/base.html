@@ -4,7 +4,7 @@
   {% block head %}
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
-    <link rel="icon" href="{{ url_for("static", filename="image/favicon.ico") }}">
+    <link rel="icon" href="{{ url_for("static", filename="img/favicon.ico") }}">
     <script href="{{ url_for("static", filename="js/jquery.js") }}" rel="script"></script>
     <script href="{{ url_for("static", filename="js/bootstrap.min.js") }}" rel="script"></script>
     <link href="{{ url_for("static", filename="css/bootstrap.min.css") }}" rel="stylesheet">
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-inverse" role="navigation" >
       <div class="container-fluid">
         <div class="navbar-header">
-          <img class="navbar-brand" src="{{ url_for("static", filename="image/logo.png") }}" alt="logo">
+          <img class="navbar-brand" src="{{ url_for("static", filename="img/logo.png") }}" alt="logo">
           <a class="navbar-brand" href="{{ url_for("index") }}">天气查询</a>
         </div>
         <div>

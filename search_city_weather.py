@@ -44,7 +44,7 @@ def create_doc(list_obj):
 
 def if_has_net():
     """
-    :return: 布尔类型
+    :return: 布尔类型.
     """
     choice = True
     try:
